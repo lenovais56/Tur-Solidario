@@ -29,9 +29,12 @@
 }
 
 .lista__menu, .lista__menu--item {
-    padding: 1em;
     background-color: var(--branco);
     width: 100vw;
+}
+
+.lista__menu--item {
+    padding: 1em;
 }
 
 .lista__menu--link {

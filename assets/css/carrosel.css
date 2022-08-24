@@ -15,6 +15,13 @@
 .swiper-slide img {
     width: 90vw;
     height: 280px;
+    margin-bottom: .5rem;
+}
+
+.slide__titulo {
+    color: var(--azul);
+    margin: .5em 0;
+    text-transform: uppercase;
 }
 
 .swiper-button-prev, .swiper-button-next {
