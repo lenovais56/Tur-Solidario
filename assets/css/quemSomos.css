@@ -1,0 +1,24 @@
+.quemSomos {
+    text-align: center;
+}
+
+.quemSomos__titulo {
+    background-color: var(--branco);
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1em 0 .5em 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.quemSomos__texto {
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding: 1em 1em;
+    text-align: initial;
+}
+
+.quemSomos__imagem {
+    width: 100%;
+}

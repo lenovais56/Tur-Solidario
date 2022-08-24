@@ -1,0 +1,20 @@
+@import url("header.css");
+@import url("banner.css");
+@import url("carrosel.css");
+@import url("quemSomos.css");
+
+:root{
+    --azul: #3a81ba;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --branco: #FFFFFF;
+    --cor-de-fundo: #EBECEE;
+    --fonte-principal: "Poppins";
+    --verde: #34af23;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}

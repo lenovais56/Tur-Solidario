@@ -1,0 +1,40 @@
+.banner {
+    align-items: center;
+    background: var(--azul-degrade);
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner__titulo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner__texto {
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+.btn__whatsapp {
+    align-items: center;
+    background-color: var(--verde);
+    border: none;
+    border-radius: 15px;
+    color: var(--branco);
+    display: flex;
+    justify-content: space-around;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1em;
+    text-align: center;
+    width: 50vw;
+}
+
+.btn__icone {
+    font-size: 30px;
+}
+

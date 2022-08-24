@@ -4,42 +4,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tur Solidario | home</title>
+    <title>Tur Solidário | home</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
     <header class="cabecalho">
-        <div class="logo">
-            <img class="logo__imagem" src="assets/img/logo.jpg" alt="">
-        </div>
-        <input type="checkbox" id="check__burguer">
-        <label for="check__burguer">
-            <div class="menu__burguer">
-                <span class="burguer"></span>
-            </div>
+        <input type="checkbox" id="menu" class="menu__botao">
+        <label for="menu">
+          <span class="cabecalho__menu--hamburguer"></span>  
         </label>
-        <ul class="menu__lista">
-            <li class="menu__item">
-                <a href="" class="menu__link">Quem somos</a>
+        <ul class="lista__menu">
+            <li class="lista__menu--item">
+                <a href="" class="lista__menu--link">
+                    Quem somos?
+                </a>
             </li>
-            <li class="menu__item">
-                <a href="" class="menu__link">Como funciona?</a>
+            <li class="lista__menu--item">
+                <a href="" class="lista__menu--link">
+                    Como funciona?
+                </a>
             </li>
-            <li class="menu__item">
-                <a href="" class="menu__link">Prêmios</a
-                    ></li>
-            <li class="menu__item">
-                <a href="" class="menu__link">Apoio</a
-                    ></li>
-            <li class="menu__item">
-                <a href="" class="menu__link">Depoimentos</a>
+            <li class="lista__menu--item">
+                <a href="" class="lista__menu--link">
+                    Viaje mais e pague menos
+                </a>
             </li>
-            <li class="menu__item">
-                <a href="" class="menu__link">Contato</a>
+            <li class="lista__menu--item">
+                <a href="" class="lista__menu--link">
+                    ONG`S que ajudamos
+                </a>
+            </li>
+            <li class="lista__menu--item">
+                <a href="" class="lista__menu--link">
+                    Prêmios e reconhecimentos
+                </a>
+            </li>
+            <li class="lista__menu--item">
+                <a href="" class="lista__menu--link">
+                    Apoio
+                </a>
+            </li>
+            <li class="lista__menu--item">
+                <a href="" class="lista__menu--link">
+                    Seja Voluntário
+                </a>
+            </li>
+            <li class="lista__menu--item">
+                <a href="" class="lista__menu--link">
+                    Contato
+                </a>
             </li>
         </ul>
-    </header>    
+        <a href="index.html" class="cabecalho__logo">
+            <img src="assets/img/logo.png" alt="Logo do Tur Solidário" class="logo__imagem">
+        </a>
+    </header>
+    <section class="banner">
+        <h1 class="banner__titulo">Tur Solidário</h1>
+        <p class="banner__texto">VIAJE MAIS, PAGUE MENOS E FAÇA AMIGOS</p>
+        <button class="btn__whatsapp">
+            <i class="fa-brands fa-whatsapp btn__icone"></i>
+            <p>Fale consco</p>
+        </button>
+    </section>
+    <section class="carrosel">
+        <h2 class="carrosel__titulo">Já percorremos vários destinos</h2>
+        <div class="swiper">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="assets/img/foto-arraialdocabo.png" alt="Foto da cidade de Arraial do cabo - RJ">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/foto-capitolio.png" alt="Foto da cidade de Capitolio - MG">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/foto-ourofino.png" alt="Foto da cidade de Ouro Fino - MG">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/foto-pocosdecalda.png" alt="Foto da cidade de Poços de calda - MG">
+                </div>
+            </div>
+              
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+          </div>
+    </section>
+    <section class="quemSomos">
+        <h2 class="quemSomos__titulo">Quem Somos</h2>
+        <p class="quemSomos__texto">O Tur solidário é uma iniciativa na área de turismo voltada a causas sociais que oferece roteiros com preços acessíveis promovendo a sustentabilidade e o trabalho voluntário.
+        Realizando uma ponte entre o atrativo turístico e as instituições que necessitam de ajuda seja ela local ou não.</p>
+        <img src="assets/img/foto-quemSomos.png" alt="Foto dos voluntários do Tur solidário em uma ação solidária" class="quemSomos__imagem">
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper.js"></script>
 </body>
 </html>
