@@ -1,0 +1,28 @@
+.viajeMais {
+    text-align: center;
+}
+
+.viajeMais__titulo span {
+    color: #ff0000;
+}
+
+.viajeMais__imagem {
+    width: 100vw;
+}
+
+.viajeMais img:nth-child(2) {
+    margin-bottom: 1em;
+}
+
+.viajeMais__titulo span:nth-child(3) {
+    font-size: 28px;
+}
+
+.viajeMais__link {
+    color: var(--azul);
+    font-size: 40px;
+}
+
+.fa-square-facebook {
+    margin: 0 1em;
+}
