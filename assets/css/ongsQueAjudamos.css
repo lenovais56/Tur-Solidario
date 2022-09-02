@@ -1,0 +1,24 @@
+.ongsQueAjudamos {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.ongsQueAjudamos__titulo {
+    margin-top: 1em;
+    width: 100vw;
+}
+
+.ongsQueAjudamos__lista {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ongsQueAjudamos__link--imagem {
+    border-radius: 1em;
+    box-shadow: 0 0 1em var(--azul);
+    height: 9em;
+    margin: 1em 1em;
+    width: 9em;
+ }

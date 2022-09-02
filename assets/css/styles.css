@@ -1,9 +1,11 @@
 @import url("header.css");
 @import url("banner.css");
+@import url("agenda.css");
 @import url("carrosel.css");
 @import url("quemSomos.css");
 @import url("comoFunciona.css");
 @import url("viajeMais.css");
+@import url("ongsQueAjudamos.css");
 
 :root{
     --azul: #3a81ba;

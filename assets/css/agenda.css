@@ -1,0 +1,44 @@
+.agenda{
+    align-items: center;
+    text-align: center;
+}
+
+.agenda__imagem {
+    border-radius: 1em;
+    margin: 1em 0;
+    width: 80vw;
+}
+
+.agenda__links {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.btn__site--parceiro {
+    color: var(--azul);
+    text-transform: uppercase;
+}
+
+.btn__agenda {
+    align-items: center;
+    background-color: var(--azul);
+    border: none;
+    border-radius: 1em;
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 1em;
+    padding: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    width: 65vw;
+}
+
+.btn__icone {
+    margin-right: .5em;
+}

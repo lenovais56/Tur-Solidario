@@ -25,7 +25,7 @@
     border-radius: 15px;
     color: var(--branco);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
@@ -36,5 +36,6 @@
 
 .btn__icone {
     font-size: 30px;
+    margin-right: .5em;
 }
 
