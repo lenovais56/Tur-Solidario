@@ -1,7 +1,7 @@
 <h1 align="center" font-size="bold"> Tur Solidário </h1>
 
 <p align="center">
-  <img width="300" height="200" src="assets/img/logo.jpg">
+  <img src="assets/img/logo.jpg">
 </p>
 
 # Resumo do projeto
