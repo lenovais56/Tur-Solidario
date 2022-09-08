@@ -23,3 +23,90 @@
     padding: .1em;
     width: 4em;
  }
+
+ /* Estilização da div arrecadacoes */
+
+ .arrecadacoes {
+    width: 100vw;
+    text-align: center;
+}
+
+.arrecadacoes__imagem {
+    width: 80vw;
+    margin: .5em 0;
+}
+
+/* Estilização da div numeros */
+
+.numeros {
+    width: 100vw;
+}
+
+.numeros__lista {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.numeros__item {
+    align-items: center;
+    background-color: var(--branco);
+    border: .5px solid var(--coral);
+    border-radius: 50%;
+    box-shadow: inset 0 0 1em var(--coral), 0 0 1em var(--coral);
+    display: flex;
+    flex-direction: column;
+    height: 70vw;
+    margin: .5em 0;
+    padding: 1em;
+    width: 70vw;
+}
+
+.item__destaque {
+    align-items: center;
+    background: radial-gradient( #8c0000, #8c0000, #f08080);
+    border-radius: 50%;
+    box-shadow: 0 0 1em var(--coral);
+    display: flex;
+    flex-direction: column;
+    height: 6em;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+    width: 6em;
+}
+
+.item__destaque--titulo {
+    color: var(--branco);
+    font-size: 30px;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.animacao {
+    animation: digitando 3s 3s normal both;
+}
+
+@keyframes digitando {
+    from {
+        width: 0;
+    }
+    to {
+        width: 90px;
+    }
+}
+
+.item__destaque--titulo span {
+    font-size: initial;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.item__descricao {
+    font-weight: 500;
+    margin: 1em 0;
+    text-align: center;
+    width: 50vw;
+}

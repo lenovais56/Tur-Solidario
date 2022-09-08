@@ -2,12 +2,16 @@
     text-align: center;
 }
 
+.viajeMais__titulo {
+    margin-bottom: 1em;
+}
+
 .viajeMais__titulo span {
     color: #ff0000;
 }
 
 .viajeMais__imagem {
-    width: 100vw;
+    width: 90vw;
 }
 
 .viajeMais img:nth-child(2) {
