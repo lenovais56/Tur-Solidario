@@ -18,7 +18,8 @@
 .ongsQueAjudamos__link--imagem {
     border-radius: 1em;
     box-shadow: 0 0 1em var(--azul);
-    height: 9em;
+    height: 4em;
     margin: 1em 1em;
-    width: 9em;
+    padding: .1em;
+    width: 4em;
  }

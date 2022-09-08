@@ -1,0 +1,9 @@
+.arrecadacoes {
+    width: 100vw;
+    text-align: center;
+}
+
+.arrecadacoes__imagem {
+    width: 80vw;
+    margin: .5em 0;
+}
