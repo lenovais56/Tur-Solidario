@@ -12,25 +12,29 @@
 .rodape__conteudo {
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     width: 100%;
 }
 
 .rodape__lista {
     display: flex;
-    justify-content: space-between;
-    width: 50%;
+    justify-content: center;
+    margin: 1em 0;
+    width: 100%;
+}
+
+.rodape__lista li:nth-child(4) {
+    margin-right: 0;
 }
 
 .rodape__imagem {
     filter: drop-shadow(0 0 .5em var(--branco));
     height: 5em;
-    margin-right: 1em;
     width: 5em;
 }
 
 .rodape__item {
-    margin-right: 1em;
+    margin-right: 2em;
 }
 
 .rodape__link img{

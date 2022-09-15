@@ -48,6 +48,7 @@ body {
 }
 
 .btn__whatsapp--fixo {
+    filter: drop-shadow(0 0 1em var(--verde));
     justify-content: end;
     position: fixed;
     top: 75%;
@@ -56,5 +57,19 @@ body {
 }
 
 .btn__whatsapp--fixo a img{
+    animation: pulsar 0.8s ease-out 1s infinite alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
     width: 70px;
+}
+
+/* animação do botão btn__whatsapp--fixo */
+
+@keyframes pulsar {
+    0% {
+        width: 60px;
+    }
+    100% {
+        width: 80px;
+    }
 }
