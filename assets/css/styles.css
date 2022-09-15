@@ -9,6 +9,7 @@
 @import url("premiosReconhecimentos.css");
 @import url("apoioResponsabilidade.css");
 @import url("depoimentos.css");
+@import url("time.css");
 @import url("rodape.css");
 
 :root{
@@ -44,4 +45,16 @@ body {
     line-height: 30px;
     padding: 1em 1em;
     text-align: initial;
+}
+
+.btn__whatsapp--fixo {
+    justify-content: end;
+    position: fixed;
+    top: 75%;
+    right: 3%;
+    z-index: 999;
+}
+
+.btn__whatsapp--fixo a img{
+    width: 70px;
 }

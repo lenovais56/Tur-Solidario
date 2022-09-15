@@ -1,4 +1,7 @@
 .viajeMais {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -22,6 +25,10 @@
     font-size: 28px;
 }
 
+.viajeMais__lista {
+    display: flex;
+}
+
 .viajeMais__link {
     color: var(--azul);
     font-size: 40px;
@@ -38,7 +45,7 @@
  /* Estilização da div seguranca */
 
 .seguranca {
-    margin-top: 1em;
+    margin: 1em 0;
 }
 
 .seguranca__imagem--principal {

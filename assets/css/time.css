@@ -1,0 +1,11 @@
+.time {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.time__imagem {
+    border-radius: 1em;
+    margin: 1em 0;
+    width: 90vw;
+}

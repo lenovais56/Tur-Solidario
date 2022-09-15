@@ -25,12 +25,14 @@
     border-radius: 15px;
     color: var(--branco);
     display: flex;
-    justify-content: center;
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+    justify-content: center;
+    letter-spacing: 1px;
     padding: 1em;
     text-align: center;
+    text-transform: uppercase;
     width: 50vw;
 }
 
