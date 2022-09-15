@@ -34,3 +34,33 @@
 .fa-square-whatsapp {
     margin-right: 1em;
 }
+
+ /* Estilização da div seguranca */
+
+.seguranca {
+    margin-top: 1em;
+}
+
+.seguranca__imagem--principal {
+    margin-bottom: 1em;
+    width: 90vw;
+}
+
+.seguranca__lista {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: .5em 0;
+}
+
+.seguranca__item:nth-child(3), .seguranca__item:nth-child(4) {
+    margin-top: 1em;
+}
+
+.seguranca__imagem {
+    box-shadow: 0 0 .5em var(--azul);
+    border-radius: .5em;
+    height: 40vw;
+    width: 40vw;
+}

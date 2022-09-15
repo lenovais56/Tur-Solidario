@@ -19,10 +19,25 @@
     border-radius: 1em;
     box-shadow: 0 0 1em var(--azul);
     height: 4em;
-    margin: 1em 1em;
+    margin: 1em;
     padding: .1em;
     width: 4em;
  }
+
+  /* Estilização da div voluntario */
+
+.voluntario__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.voluntario__imagem {
+    box-shadow: 0 0 .5em var(--azul);
+    border-radius: .5em;
+    margin: 1em 0;
+    width: 90vw;
+}
 
  /* Estilização da div arrecadacoes */
 
@@ -52,12 +67,12 @@
 .numeros__item {
     align-items: center;
     background-color: var(--branco);
-    border: .5px solid var(--coral);
+    border: 2px solid var(--azul);
     border-radius: 50%;
-    box-shadow: inset 0 0 1em var(--coral), 0 0 1em var(--coral);
     display: flex;
     flex-direction: column;
     height: 70vw;
+    justify-content: center;
     margin: .5em 0;
     padding: 1em;
     width: 70vw;
@@ -65,9 +80,9 @@
 
 .item__destaque {
     align-items: center;
-    background: radial-gradient( #8c0000, #8c0000, #f08080);
+    background: var(--azul-degrade);
     border-radius: 50%;
-    box-shadow: 0 0 1em var(--coral);
+    box-shadow: 0 0 1em var(--azul);
     display: flex;
     flex-direction: column;
     height: 6em;

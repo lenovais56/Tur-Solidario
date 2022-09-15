@@ -1,0 +1,9 @@
+.premios, .reconhecimentos {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+}
+
+.premios span, .reconhecimentos span {
+    font-weight: 600;
+}

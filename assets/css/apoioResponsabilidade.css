@@ -1,0 +1,32 @@
+.apoio__lista {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.apoio__item {
+    margin: 1em 0;
+}
+
+.apoio__link img{
+    width: 40vw;
+}
+
+.responsabilidade {
+    display: flex;
+    flex-direction: column;
+}
+
+.responsabilidade__texto span {
+    font-weight: 600;
+}
+
+.responsabilidade__link{
+    text-align: center;
+}
+
+.responsabilidade__link img{
+    width: 80vw;
+}
