@@ -1,0 +1,40 @@
+.depoimentos__lista {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.depoimentos__item {
+    align-items: center;
+    background: var(--azul-degrade);
+    border-radius: 1em;
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+    padding: 1em;
+    width: 80vw;
+}
+
+.depoimentos__item hr {
+    width: 100%;
+}
+
+.depoimento__imagem {
+    border-radius: .5em;
+    box-shadow: 0 0 1em var(--branco);
+    margin: .5em 0;
+}
+
+.depoimento__titulo {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 1em 0;
+}
+
+.depoimento__texto {
+    font-size: 16px;
+    line-height: 25px;
+}
