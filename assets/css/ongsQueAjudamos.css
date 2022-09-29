@@ -81,7 +81,7 @@
 .item__destaque {
     align-items: center;
     background: var(--azul-degrade);
-    border-radius: 50%;
+    border-radius: 100px;
     box-shadow: 0 0 1em var(--azul);
     display: flex;
     flex-direction: column;
@@ -90,7 +90,6 @@
     margin: 0 auto;
     padding: 1em;
     text-align: center;
-    width: 6em;
 }
 
 .item__destaque--titulo {
@@ -124,4 +123,15 @@
     margin: 1em 0;
     text-align: center;
     width: 50vw;
+}
+
+@media screen and (min-width: 768px) {
+    .ongsQueAjudamos {
+        margin: 2em 20vw;
+    }
+
+    .numeros__item {
+        height: 50vw;
+        width: 50vw;
+    }
 }

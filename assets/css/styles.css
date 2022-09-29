@@ -57,9 +57,7 @@ body {
 }
 
 .btn__whatsapp--fixo a img{
-    animation: pulsar 0.8s ease-out 1s infinite alternate;
-    animation-fill-mode: none;
-    animation-play-state: running;
+    animation: pulsar 0.8s ease-out 1s infinite alternate none running;
     width: 70px;
 }
 

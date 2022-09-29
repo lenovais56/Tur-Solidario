@@ -71,3 +71,13 @@
     height: 40vw;
     width: 40vw;
 }
+
+@media screen and (min-width: 768px) {
+    .seguranca {
+        align-items: center;
+    }
+
+    .seguranca__texto {
+        margin: 0 5vw;
+    }
+}

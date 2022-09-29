@@ -42,3 +42,9 @@
 .btn__icone {
     margin-right: .5em;
 }
+
+@media screen and (min-width: 768px) {
+    .btn__agenda {
+        width: 40vw;
+    }
+}
