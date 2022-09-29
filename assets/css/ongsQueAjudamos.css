@@ -130,8 +130,77 @@
         margin: 2em 20vw;
     }
 
+    .ongsQueAjudamos__link--imagem {
+        height: 6em;
+        width: 6em;
+    }
+
     .numeros__item {
         height: 50vw;
         width: 50vw;
+    }
+
+    .item__destaque--titulo {
+        font-size: 30px;
+    }
+
+    .item__descricao {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .ongsQueAjudamos__lista {
+        padding: 1em 0;
+        width: 60vw;
+    }
+
+    .ongsQueAjudamos__link--imagem {
+        height: 7em;
+        width: 7em;
+    }
+
+    .ongsQueAjudamos__link--imagem:hover {
+        height: 8em;
+        width: 8em;
+    }
+
+    .voluntario {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .voluntario__texto {
+        width: 70vw;
+    }
+
+    .voluntario__imagem {
+        width: 60vw;
+    }
+
+    .arrecadacoes__imagem {
+        width: 60vw;
+    }
+
+    .numeros__lista {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 2em 20vw;
+    }
+
+    .numeros__item {
+        margin: 2em 2em 2em 0;
+        height: 25vw;
+        width: 25vw;
+    }
+
+    .item__destaque:hover {
+        padding: 2em;
+    }
+
+    .item__descricao {
+        width: 20vw;
     }
 }

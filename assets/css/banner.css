@@ -8,6 +8,12 @@
     padding: 2.5em 2em;
 }
 
+.banner__conteudo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .banner__titulo {
     font-size: 18px;
     font-weight: 700;
@@ -23,6 +29,7 @@
     background-color: var(--verde);
     border: none;
     border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     color: var(--branco);
     display: flex;
     font-family: var(--fonte-principal);
@@ -41,6 +48,10 @@
     margin-right: .5em;
 }
 
+.banner img {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     .banner__titulo {
         font-size: 30px;
@@ -49,5 +60,20 @@
     .btn__whatsapp {
         margin-top: 2em;
         width: 30vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .banner {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .banner img {
+        display: block;
+        filter: drop-shadow(0 0 .5em var(--branco));
+        margin-right: 20em;
     }
 }

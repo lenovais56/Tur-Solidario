@@ -44,3 +44,13 @@
         width: 50vw;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .depoimentos__lista {
+        padding: 1em 10vw;
+    }
+
+    .depoimentos__item {
+        width: 30vw;
+    }
+}

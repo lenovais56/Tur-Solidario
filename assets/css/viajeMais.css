@@ -80,4 +80,49 @@
     .seguranca__texto {
         margin: 0 5vw;
     }
+
+    .viajeMais__titulo {
+        width: 100vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .viajeMais__imagem {
+        width: 60vw;
+        margin-bottom: 1em;
+    }
+
+    .viajeMais__link {
+        font-size: 70px;
+    }
+
+    .viajeMais__link:hover {
+        font-size: 80px;
+    }
+
+    .seguranca__imagem--principal {
+        width: 60vw;
+    }
+
+    .seguranca__lista {
+        margin: 0 20vw;
+    }
+
+    .seguranca__item {
+        padding: 1em;
+    }
+
+    .seguranca__imagem {
+        height: 25vw;
+        width: 25vw;
+    }
+
+    .btn__whatsapp {
+        font-size: 20px;
+        width: 20vw;
+    }
+
+    .btn__whatsapp:hover {
+        padding: 1.5em;
+    }
 }

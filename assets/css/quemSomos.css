@@ -1,4 +1,17 @@
+.quemSomos {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .quemSomos__imagem {
     width: 100vw;
     margin-bottom: 1em;
+}
+
+@media screen and (min-width: 1024px) {
+    .quemSomos__imagem {
+        margin-bottom: 2em;
+        width: 60vw;
+    }
 }

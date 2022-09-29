@@ -30,3 +30,35 @@
 .responsabilidade__link img{
     width: 80vw;
 }
+
+@media screen and (min-width: 1024px) {
+    .apoio, .responsabilidade {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .apoio__texto {
+        width: 70vw;
+    }
+
+    .apoio__lista {
+        width: 60vw;
+    }
+
+    .apoio__link img{
+        width: 25vw;
+    }
+
+    .apoio__link img:hover {
+        width: 28vw;
+    }
+
+    .responsabilidade__texto {
+        width: 70vw;
+    }
+
+    .responsabilidade__link img {
+        width: 60vw;
+    }
+}

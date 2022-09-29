@@ -32,3 +32,17 @@
     position: initial;
     margin: .5em 0;
 }
+
+@media screen and (min-width: 1024px) {
+    .swiper {
+        margin: 1em 0;
+    }
+
+    .slide__titulo {
+        font-size: 18px;
+    }
+
+    .swiper-slide img {
+        width: 70vw;
+    }
+}

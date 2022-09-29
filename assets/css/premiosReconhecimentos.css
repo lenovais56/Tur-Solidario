@@ -7,3 +7,27 @@
 .premios span, .reconhecimentos span {
     font-weight: 600;
 }
+
+@media screen and (min-width: 1024px) {
+    
+    .premios {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .premios__texto {
+        width: 70vw;
+    }
+
+    .reconhecimentos {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reconhecimentos__imagem {
+        margin: 1em 0;
+        width: 60vw;
+    }
+}

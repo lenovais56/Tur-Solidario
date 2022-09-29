@@ -26,6 +26,7 @@
     background-color: var(--azul);
     border: none;
     border-radius: 1em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     color: var(--branco);
     display: flex;
     justify-content: center;
@@ -46,5 +47,13 @@
 @media screen and (min-width: 768px) {
     .btn__agenda {
         width: 40vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .btn__agenda {
+        font-size: 20px;
+        padding: 1em;
+        width: 30vw;
     }
 }

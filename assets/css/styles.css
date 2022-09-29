@@ -38,6 +38,7 @@ body {
     padding: 1em 0 .5em 0;
     text-align: center;
     text-transform: uppercase;
+    width: 100vw;
 }
 
 .texto {
@@ -69,5 +70,26 @@ body {
     }
     100% {
         width: 80px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .titulo {
+        font-size: 22px;
+    }
+
+    .texto {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .titulo {
+        font-size: 24px;
+    }
+
+    .texto {
+        font-size: 22px;
+        padding: 2em 6em;
     }
 }

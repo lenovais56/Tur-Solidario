@@ -54,8 +54,19 @@
 }
 
 @media screen and (min-width: 768px) {
+    .rodape__texto, .rodape__texto a {
+        font-size: 16px;
+    }
+
     .rodape__link img {
         height: 50px;
         width: 50px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape__link img:hover {
+        height: 60px;
+        width: 60px;
     }
 }
